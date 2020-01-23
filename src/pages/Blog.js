@@ -47,7 +47,7 @@ const BlogPage = () => {
   }
 
   return (
-    <Layout>
+    <Layout activePage="./Blog">
       <Container className={style.container}>
         <h1>BLOG</h1>
         {/* <form>

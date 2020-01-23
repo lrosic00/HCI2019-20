@@ -8,7 +8,7 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger"
 import Tooltip from "react-bootstrap/Tooltip"
 
 const Contact = () => (
-  <Layout>
+  <Layout activePage="./Contact">
     <Container className={style.container}>
       <ul>
         <span>Contact us</span>

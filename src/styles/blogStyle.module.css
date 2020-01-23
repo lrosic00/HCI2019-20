@@ -66,7 +66,7 @@
   left: 0;
   width: 80px;
   height: 80px;
-  background: #55acee;
+  background: #0069d9;
   border-radius: 50%;
   transition: all 1s;
   z-index: 4;
@@ -115,9 +115,9 @@
   height: 50px;
   outline: none;
   border: none;
-  background: #55acee;
+  background: #0069d9;
   color: white;
-  text-shadow: 0 0 10px #55acee;
+  text-shadow: 0 0 10px #0069d9;
   padding: 0 80px 0 20px;
   border-radius: 30px;
   box-shadow: 0 0 25px 0 #55acee, 0 20px 25px 0 rgba(0, 0, 0, 0.2);

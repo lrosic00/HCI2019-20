@@ -1,10 +1,12 @@
 import React from "react"
 import Header from "./header"
 import Footer from "./Footer"
+import Seo from "../components/seo"
 
 const Layout = props => (
   <>
-    <Header></Header>
+    <Seo title="CR Group"></Seo>
+    <Header activePage={props.activePage}></Header>
     {props.children}
     <Footer></Footer>
   </>

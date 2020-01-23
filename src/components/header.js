@@ -6,7 +6,7 @@ import style from "../styles/headerStyle.module.css"
 
 //TRIBA SAM NAZVAT NAVBAR A NE HEADER AL JBG SAD
 
-const Header = () => (
+const Header = props => (
   <Navbar
     sticky="top"
     className={style.container}
@@ -30,16 +30,49 @@ const Header = () => (
     <Navbar.Collapse id="responsive-navbar-nav">
       {/*###### BOTUNI ######*/}
       <Nav className="mr-auto">
-        <Nav.Link className="botuni" size="large" href="../">
+        <Nav.Link
+          className="botuni"
+          size="large"
+          href="../"
+          style={
+            props.activePage === "./"
+              ? { borderBottom: "2px solid #0069d9", color: "white" }
+              : {}
+          }
+        >
           Home
         </Nav.Link>
-        <Nav.Link className="botuni" href="../Blog">
+        <Nav.Link
+          className="botuni"
+          href="../Blog"
+          style={
+            props.activePage === "./Blog"
+              ? { borderBottom: "2px solid #0069d9", color: "white" }
+              : {}
+          }
+        >
           Blog
         </Nav.Link>
-        <Nav.Link className="botuni" href="../AboutUs">
+        <Nav.Link
+          className="botuni"
+          href="../AboutUs"
+          style={
+            props.activePage === "./AboutUs"
+              ? { borderBottom: "2px solid #0069d9", color: "white" }
+              : {}
+          }
+        >
           About
         </Nav.Link>
-        <Nav.Link className="botuni" href="../Contact">
+        <Nav.Link
+          className="botuni"
+          href="../Contact"
+          style={
+            props.activePage === "./Contact"
+              ? { borderBottom: "2px solid #0069d9", color: "white" }
+              : {}
+          }
+        >
           Contact
         </Nav.Link>
         {/* <Nav.Link className="botuni" href="../MyGallery">

@@ -72,7 +72,7 @@ const apartman4 = {
 }
 
 const Index = () => (
-  <Layout>
+  <Layout activePage="./">
     <ApartmentCard apartman={apartman1} />
     <ApartmentCard apartman={apartman2} />
     <ApartmentCard apartman={apartman3} />

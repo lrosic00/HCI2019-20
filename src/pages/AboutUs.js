@@ -10,7 +10,7 @@ import avatar2 from "../images/avatar2.svg"
 import CardDeck from "react-bootstrap/CardDeck"
 
 const AboutUs = () => (
-  <Layout>
+  <Layout activePage="./AboutUs">
     <div className={style.imageBanner}>
       <Container>
         <Row>
