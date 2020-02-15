@@ -27,20 +27,27 @@ const ApartmentCard = props => (
               src={props.apartman.img1}
               height="100%"
               width="auto"
-              style={{ objectfit: "contain" }}
+              style={{ objectFit: "cover" }}
             />
           </Col>
           <Col md={8}>
             <Card.Body>
               <Card.Title>{props.apartman.title}</Card.Title>
-              <Card.Text>{props.apartman.shortDesc}</Card.Text>
+              <Card.Text>{props.apartman.longDesc}</Card.Text>
+              <hr className="visibleSeperator" />
               <Row className={style.pillRow}>
-                <Badge variant="secondary">Price: {props.apartman.price}</Badge>
-                <Badge variant="secondary">Age: {props.apartman.age}</Badge>
-                <Badge variant="secondary">City: {props.apartman.city}</Badge>
-                <Badge variant="secondary">
+                <Button disabled={true} size="sm" variant="outline-dark">
+                  Price: {props.apartman.price}
+                </Button>
+                <Button disabled={true} variant="outline-dark">
+                  Age: {props.apartman.age}
+                </Button>
+                <Button disabled={true} variant="outline-dark">
+                  City: {props.apartman.city}
+                </Button>
+                <Button disabled={true} variant="outline-dark">
                   Country: {props.apartman.country}
-                </Badge>
+                </Button>
               </Row>
             </Card.Body>
           </Col>

@@ -19,7 +19,7 @@ export const query = graphql`
 
 const Blog = props => {
   return (
-    <Layout>
+    <Layout activePage="./Blog">
       <Container className={style.container}>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <div

@@ -4,6 +4,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 15px;
+  flex-grow: 1;
 }
 .container h1 {
   margin-left: 2rem;

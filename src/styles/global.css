@@ -1,3 +1,9 @@
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .carousel-control-prev-icon {
   height: 30px;
   width: 30px;
@@ -29,4 +35,10 @@
   padding: 0.5rem;
   font-size: medium;
   margin-top: 1rem;
+}
+.visibleSeperator {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+  margin-bottom: 20px;
 }

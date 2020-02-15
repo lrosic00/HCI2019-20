@@ -4,10 +4,6 @@ import Layout from "../components/layout"
 import ApartmentCard from "../components/ApartmentCard"
 import ApartmentButtonGroup from "../components/ApartmentButtonGroup"
 import ApartmentCardGroup from "../components/ApartmentCardGroup"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import style from "../styles/indexPageStyle.module.css"
 
 //importat link od gatsby-a da mozemo linkat pageove na gatsbyev nacin
 const apartman1 = {
@@ -75,21 +71,8 @@ const apartman4 = {
   img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190418040.jpg",
 }
 
-const Index = () => (
+const Index3 = () => (
   <Layout activePage="./">
-    <div className={style.imageBanner}>
-      <Container>
-        <Row>
-          <Col md={12}>
-            <h1 className={style.lgText}>Welcome to CR Group</h1>
-            <p style={{ color: "#fff" }}>
-              Here you can find rentable hotel rooms, apartments, vacation
-              houses and many many more.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-    </div>
     <ApartmentCard apartman={apartman1} />
     <ApartmentCard apartman={apartman2} />
     <ApartmentCard apartman={apartman3} />
@@ -100,51 +83,4 @@ const Index = () => (
   </Layout>
 )
 
-export const query = graphql`
-  {
-    allFile(filter: { absolutePath: { regex: "//content/images//" } }) {
-      edges {
-        node {
-          id
-          relativePath
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
-      }
-    }
-  }
-`
-
-export default Index
-
-// const Index = () => {
-//   return (
-//     <Layout>
-//       <SEO title="Naslovna" />
-
-//       <Card style={{ width: "18rem" }}>
-//         <Card.Img variant="top" src="../images/logo.png" />
-//         <Card.Body>
-//           <Card.Title>Apartment1</Card.Title>
-//           <Card.Text>
-//             Some quick example text to build on the card title and make up the
-//             bulk of the card's content.
-//           </Card.Text>
-//           {<Button variant="primary">Go somewhere</Button>}
-//         </Card.Body>
-//       </Card>
-
-//       {/* <h1>Predavanja</h1> */}
-//       {/* <img src={"../static/slika.jpg"} alt="Logo" /> */}
-//       {/*<Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} alt="Gatsby Docs are awesome"/> */}
-//       {/* {data.allFile.edges.map(({ node }) => (
-//         <Img key={node.id} fluid={node.childImageSharp.fluid} />  ==> Ovo je način na koji smo responzivno loadali slike iz filea za slike
-//       ))} */}
-//     </Layout>
-//   )
-// }
-
-//grapiql query za dohvacanje slika s content images ja mislim, a ovo tracedSVG je nacin kompresije kad se slika loada ondosno kako ce se loadat
+export default Index3

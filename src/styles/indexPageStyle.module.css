@@ -1,12 +1,11 @@
-.row {
-}
+/* .row {
+} */
 
 .ButtonGroup {
   margin: 20px 0px;
 }
 
 .CardGroup {
-  margin: 20px 0px;
   justify-content: space-between;
   padding-left: 1000;
 }
@@ -19,11 +18,38 @@
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
+
+.container p {
+  max-height: 6.5rem;
+  text-overflow: clip;
+  overflow: hidden;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
 .pillRow {
   justify-content: space-around;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .mainCard:hover {
   box-shadow: 0 0 111px rgba(33, 33, 33, 0.4);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.imageBanner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images7.alphacoders.com/365/365742.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  margin-bottom: 70px;
+}
+.lgText {
+  font-size: 52px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
 }
