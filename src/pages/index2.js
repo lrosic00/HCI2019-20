@@ -7,68 +7,114 @@ import ApartmentCardGroup from "../components/ApartmentCardGroup"
 
 //importat link od gatsby-a da mozemo linkat pageove na gatsbyev nacin
 const apartman1 = {
-  title: "Flora Chiado Apartments",
-  shortDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi",
-  longDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi Each unit is fitted with a microwave, fridge, a kettle, as well as a oven and coffee machine. Some of the units feature a cable TV, a fully equipped kitchenette with a dishwasher, and a private bathroom with a shower and a hair dryer. Guests at the apartment can enjoy a continental breakfast. Bairro Alto is 1.4 km from Flora Chiado Apartments, while Liberty Avenue is 2.2 km from the property.",
-  price: "450 $",
+  title: "The Wink",
+
+  longDesc: `Located just 5 mi from the Ronald Reagan Washington National Airport, this hotel has a modern gym and several dining options. Each room has a tea/coffee maker.
+
+  The Wink features the Brasserie Wink, which serves hot and cold dishes for breakfast. It also has the Bar Wink, where guests can have refreshing drinks and appetizers. For Italian coffee and snacks, guests can visit the Illy Cafe, which has an indoor and outdoor seating area.
+  
+  The fitness center at The Wink has modern equipment, including treadmills and elliptical equipment.
+  
+  This Washington, DC hotel is 1.1 mi from the White House and within a 2.5 mi radius of the Newseum and the International Spy Museum.
+  
+  Northwest is a great choice for travelers interested in cleanliness, culture and city walks.
+  
+  This is our guests' favorite part of Washington, D.C., according to independent reviews.
+  
+  We speak your language!
+  
+  The Wink has been welcoming Booking.com guests since May 9, 2011`,
+  price: "911 $",
   age: "1980",
-  city: "Lisbon",
-  country: "Portugal",
-  owner: "Christiano Ronaldo",
+  city: "Washington DC",
+  country: "USA",
+  owner: "George W. Bush",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://r-cf.bstatic.com/images/hotel/max1024x768/100/100210804.jpg",
-  img2: "https://q-cf.bstatic.com/images/hotel/max1024x768/100/100205800.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1024x768/926/92610480.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/241/241334929.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/241/241334846.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/241/241334837.jpg",
 }
 const apartman2 = {
-  title: "Park West Hotel",
-  shortDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia",
-  longDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia University and 1.4 mi from the American Museum of Natural History. Each of the room at the Park West includes a TV, radio, alarm clock and air conditioning. The private bathroom is equipped with a shower, bath tub and offers C.O. Bigelow toiletries for all guests.  Park West on Central Park has a 24-hour front desk and a business center. The Cathedral Parkway Subway Station is 161 m away and provides access to Lines B and C. The Broadway Theater District, Rockefeller Center, Radio City Music Hall and Columbus Circle are within a 3.7 mi radius. LaGuardia Airport is 8.4 mi from Park West on Central Park. Upper West Side is a great choice for travelers interested in parks, museums and culture.",
+  title: "Midtown Hotel",
+  longDesc: `Located 0.9 mi from Fenway Park, this downtown Boston hotel is adjacent to Northeastern University. It features an on-site beauty salon and an outdoor swimming pool. All rooms offer a cable TV.
+
+  A work desk and a small dining table are provided in all simply styled rooms at Midtown Hotel. In-room coffee and a clock radio are included.
+  
+  Hotel Midtown provides an on-site gift shop for guest convenience. Meeting rooms and laundry services are also available.
+  
+  The Shops at the Prudential Center are 0.7 mi from this hotel. The Boston Museum of Fine Arts is a 5-minute drive away.
+  
+  Back Bay is a great choice for travelers interested in shopping, architecture and restaurants.
+  
+  This is our guests' favorite part of Boston, according to independent reviews.
+  
+  We speak your language!
+  
+  Midtown Hotel has been welcoming Booking.com guests since Jun 29, 2007`,
   price: "500 $",
   age: "1990",
-  city: "New York",
+  city: "Boston",
   country: "USA",
-  owner: "Brad Pitt",
+  owner: "Larry Bird",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/157/157471036.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/834/83471737.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/127/127194962.jpg",
+  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/940/94079613.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/940/94079578.jpg",
+  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/940/94079553.jpg",
 }
 const apartman3 = {
-  title: "Hotel Gat Point Charlie",
-  shortDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. ",
-  longDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. It offers free WiFi, modern rooms and great transport connections.Located in the Stasi secret police headquarters in the former East Germany, Gat Point Charlie is an industrial structure featuring minimalist-style rooms. Each features satellite TV and a desk, and the private bathrooms have toiletries and a hairdryer.A healthy and balanced breakfast is provided every morning in the hotel’s stylish breakfast room. Tapas and light meals are available in the evenings, and the bar is a great place to enjoy cocktails and make friends.Stadtmitte Underground Station is a 3-minute walk away. From here, guests can reach Potsdamer Platz in 2 minutes or Alexanderplatz Square in 6 minutes.Mitte is a great choice for travelers interested in museums, history and monuments.",
+  title: "Riviere South Beach Hotel",
+  longDesc: `Only 4 minutes' walk from beautiful beaches and set in South Beach's Art Deco district, this hotel offers instant access to top attractions and features modern in-room amenities, including flat-screen TVs. WiFi is free to guests.
+
+   Within 6 minutes' drive of the Riviere South Beach Hotel is the Miami Beach Convention Center and the infamous Versace House. The famed restaurants, luxury boutiques and exiting nightclubs of Ocean Drive are also only steps away.
+   
+   On-site at the Riviere, guests can enjoy relaxing in the cozy outdoor garden area. The hotel also offers limited hour, complimentary transfer service from the Miami International Airport for guests' convenience.
+   
+   Guests receive private beach access, complete with 2 complimentary beach chairs.
+   Daily complimentary continental breakfast is provided.
+   
+   Guestrooms feature a microwave and small refrigerator. Additional amenities include an en suite safe, private bathroom, and a desk.
+   
+   This is our guests' favorite part of Miami Beach, according to independent reviews.
+   
+   We speak your language!`,
   price: "350 $",
   age: "1986",
-  city: "Berlin",
-  country: "Germany",
-  owner: "Angela Merkel",
+  city: "Miami",
+  country: "USA",
+  owner: "Dwayne Wade",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634872.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/665/66575127.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634782.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/130/130845356.jpg",
+  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/220/220012195.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/160/160033339.jpg",
 }
 const apartman4 = {
-  title: "Villa Dard",
-  shortDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned ",
-  longDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned accommodations with a TV.The historic center is full of various cafés, restaurants and shops. Some of the most notable sights include the Stradun Promenade, Onofrio’s Fountain and Orlando’s Column.There is a cable car overlooking the surrounding islands half a kilometer away. Banje, Dubrovnik’ s most popular beach with great views of the Town Walls, is a 15 minute walk away.    A local bus stop is 92 m from the property. Dubrovnik Bus Station as well as the Ferry Port, with frequent services to numerous Dalmatian destinations, are 2.4 km away. Dubrovnik Airport is 19.3 km from the Dard.",
+  title: "Corinthia Budapest",
+  longDesc: `The 5-star Corinthia Budapest on the Grand Boulevard offers access to its Royal Spa, 3 restaurants, an elegant café and free Wi-Fi in all rooms.
+
+    The UNESCO-protected Andrassy Avenue and the Oktogon metro station are only 300 m away from the Corinthia Budapest.
+    
+    In the historic Royal Spa you can enjoy several relaxation areas, saunas, steam baths, hot tubs, a fitness room and a wide variety of treatments. Guests have free access to the Royal Spa when booking most of the rooms, while the spa area can be used for an additional fee when booking the Superior room.
+    
+    The large guest rooms of the Corinthia Budapest are all air-conditioned and feature a flat-screen TV with satellite channels.
+    
+    Gourmet Hungarian, Asian and international cuisine can be enjoyed in the restaurants and you can choose from a selection of home-made cakes in the café. Throughout the day you can listen to live piano music in the lobby bar.
+    
+    07. Erzsébetváros is a great choice for travelers interested in hot springs, riverside walks and restaurants.
+    
+    This is our guests' favorite part of Budapest, according to independent reviews.
+    
+    We speak your language!
+    
+    Corinthia Budapest has been welcoming Booking.com guests since Aug 20, 2004`,
   price: "410 $",
   age: "1977",
-  city: "Dubrovnik",
-  country: "Croatia",
-  owner: "Ruder Boskovic",
+  city: "Budapest",
+  country: "Hundary",
+  owner: "Viktor Orban",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/190/190408048.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190420172.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190418040.jpg",
+  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/249/24962271.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/182/182758622.jpg",
+  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/182/182761757.jpg",
 }
 
 const Index2 = () => (

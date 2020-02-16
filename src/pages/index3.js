@@ -8,67 +8,107 @@ import ApartmentCardGroup from "../components/ApartmentCardGroup"
 //importat link od gatsby-a da mozemo linkat pageove na gatsbyev nacin
 const apartman1 = {
   title: "Flora Chiado Apartments",
-  shortDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi",
-  longDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi Each unit is fitted with a microwave, fridge, a kettle, as well as a oven and coffee machine. Some of the units feature a cable TV, a fully equipped kitchenette with a dishwasher, and a private bathroom with a shower and a hair dryer. Guests at the apartment can enjoy a continental breakfast. Bairro Alto is 1.4 km from Flora Chiado Apartments, while Liberty Avenue is 2.2 km from the property.",
+  longDesc: `Just 5 minutes' drive from the Las Vegas Strip, this 100% nonsmoking hotel offers a free shuttle service to the adjacent McCarran International Airport and the Las Vegas Strip. It features an outdoor pool and free WiFi.
+
+   The contemporary guest rooms at Best Western McCarran Inn are equipped with flat-screen cable TV. A coffee maker and a work desk with ergonomic chair are provided.
+   
+   A full hot breakfast is served every morning at this Las Vegas hotel.
+   
+   Laundry facilities are available at the hotel. An exercise room is also available onsite.
+   
+   The Thomas and Mac Center at UNLV is located across from the McCarran Best Western Inn. The Las Vegas Convention Center is 10 minutes' drive away.
+   
+   We speak your language!
+   
+   Best Western McCarran Inn has been welcoming Booking.com guests since Feb 2, 2010`,
   price: "450 $",
   age: "1980",
-  city: "Lisbon",
-  country: "Portugal",
-  owner: "Christiano Ronaldo",
+  city: "Las Vegas",
+  country: "USA",
+  owner: "Tommy Lee Jones",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://r-cf.bstatic.com/images/hotel/max1024x768/100/100210804.jpg",
-  img2: "https://q-cf.bstatic.com/images/hotel/max1024x768/100/100205800.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1024x768/926/92610480.jpg",
+  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/139/139249589.jpg",
+  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/139/139132076.jpg",
+  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/139/139251406.jpg",
 }
 const apartman2 = {
-  title: "Park West Hotel",
-  shortDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia",
-  longDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia University and 1.4 mi from the American Museum of Natural History. Each of the room at the Park West includes a TV, radio, alarm clock and air conditioning. The private bathroom is equipped with a shower, bath tub and offers C.O. Bigelow toiletries for all guests.  Park West on Central Park has a 24-hour front desk and a business center. The Cathedral Parkway Subway Station is 161 m away and provides access to Lines B and C. The Broadway Theater District, Rockefeller Center, Radio City Music Hall and Columbus Circle are within a 3.7 mi radius. LaGuardia Airport is 8.4 mi from Park West on Central Park. Upper West Side is a great choice for travelers interested in parks, museums and culture.",
+  title: "Hotel Galaxy",
+  longDesc: `Located 10 minutes’ drive from McCarran International Airport and less than 1 mi from Interstate 15, Hotel Galaxy offers guest rooms with free WiFi. A lush blue outdoor pool is offered to guests and a weekend breakfast is provided.
+
+    Guest rooms at Hotel Galaxy are equipped with a cable TV, a microwave and a refrigerator.
+    
+    A 24-hour front desk greets guests of this hotel. Free guest parking is available.
+    
+    The Las Vegas Strip is less than 5 minutes’ drive from Hotel Galaxy. The Bali Hai Golf Club is 1.9 mi away from the hotel.
+    
+    We speak your language!
+    
+    Hotel Galaxy has been welcoming Booking.com guests since Jan 11, 2012`,
   price: "500 $",
   age: "1990",
   city: "New York",
   country: "USA",
   owner: "Brad Pitt",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/157/157471036.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/834/83471737.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/127/127194962.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/697/69734924.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/697/69734935.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/697/69734936.jpg",
 }
 const apartman3 = {
-  title: "Hotel Gat Point Charlie",
-  shortDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. ",
-  longDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. It offers free WiFi, modern rooms and great transport connections.Located in the Stasi secret police headquarters in the former East Germany, Gat Point Charlie is an industrial structure featuring minimalist-style rooms. Each features satellite TV and a desk, and the private bathrooms have toiletries and a hairdryer.A healthy and balanced breakfast is provided every morning in the hotel’s stylish breakfast room. Tapas and light meals are available in the evenings, and the bar is a great place to enjoy cocktails and make friends.Stadtmitte Underground Station is a 3-minute walk away. From here, guests can reach Potsdamer Platz in 2 minutes or Alexanderplatz Square in 6 minutes.Mitte is a great choice for travelers interested in museums, history and monuments.",
+  title: "The Mirage",
+  longDesc: `A tropical refuge in the center of Las Vegas, this elegant resort features a unique dolphin and wild animal habitat. It features large pools, a full-service casino, and a spa.
+
+ At The Mirage, guest rooms include modern furnishings with a 42-inch flat-screen cable TV.
+ 
+ Guests at The Mirage Las Vegas can find a large variety of dining options, including classic buffet-style dining at Cravings, fine cuisine at Tom Colicchio Heritage Steak House and STACK Restaurant. Guests can enjoy casual meals at LVB Burgers & Bar, or Pantry, a 24-hour restaurant. A number of exciting nightclubs, bars and lounges are also on site.
+ 
+ The Beatles Love by Cirque du Soleil and 1 Oak nightclub are at The Mirage. The hotel features a replica lava-flowing volcano.
+ 
+ The Mirage is located on the Las Vegas Strip, 6.4 km from McCarran International Airport.
+ 
+ Las Vegas Strip is a great choice for travelers interested in shopping, nightlife and entertainment.
+ 
+ This is our guests' favorite part of Las Vegas, according to independent reviews.
+ 
+ We speak your language!
+ 
+ The Mirage has been welcoming Booking.com guests since Dec 19, 2009`,
   price: "350 $",
   age: "1986",
-  city: "Berlin",
-  country: "Germany",
-  owner: "Angela Merkel",
+  city: "Las Vegas",
+  country: "USA",
+  owner: "Tom Cruise",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634872.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/665/66575127.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634782.jpg",
+  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/193/193379550.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/193/193379603.jpg",
+  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/193/193379767.jpg",
 }
 const apartman4 = {
-  title: "Villa Dard",
-  shortDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned ",
-  longDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned accommodations with a TV.The historic center is full of various cafés, restaurants and shops. Some of the most notable sights include the Stradun Promenade, Onofrio’s Fountain and Orlando’s Column.There is a cable car overlooking the surrounding islands half a kilometer away. Banje, Dubrovnik’ s most popular beach with great views of the Town Walls, is a 15 minute walk away.    A local bus stop is 92 m from the property. Dubrovnik Bus Station as well as the Ferry Port, with frequent services to numerous Dalmatian destinations, are 2.4 km away. Dubrovnik Airport is 19.3 km from the Dard.",
+  title: "Trump International Hotel Las Vegas",
+  longDesc: `Located in Las Vegas, this all-suite hotel offers luxury spa services, an outdoor pool and suites with kitchenette facilities and free Wi-Fi. The hotel is adjacent to the Fashion Show Mall.
+
+   Every suite at Trump International Hotel Las Vegas is furnished with an iPod docking station and seating area.
+   
+   Las Vegas Trump International Hotel features an on-site spa with 9 treatment rooms and a full-service hair and nail salon. Guests can also use the state-of-the-art gym.
+   
+   Trump Hotel’s signature restaurant, DJT, offers casual American cuisine. H2(eau) also offers casual American favorites in a vibrant, poolside atmosphere. Private gourmet meals are available through the hotel’s convenient in-suite dining.
+   
+   Las Vegas Boulevard is within a 5-minute walk from the hotel. Trump International Hotel has free shuttle services that run to the shopping center and casinos.
+   
+   Las Vegas Strip is a great choice for travelers interested in shopping, nightlife and entertainment.
+   
+   We speak your language!
+   
+   Trump International Hotel Las Vegas has been welcoming Booking.com guests since Jul 18, 2008`,
   price: "410 $",
   age: "1977",
-  city: "Dubrovnik",
-  country: "Croatia",
-  owner: "Ruder Boskovic",
+  city: "Las Vegas",
+  country: "USA",
+  owner: "Donald Trump",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/190/190408048.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190420172.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190418040.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/188/188489297.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/188/188491576.jpg",
+  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/188/188490387.jpg",
 }
 
 const Index3 = () => (

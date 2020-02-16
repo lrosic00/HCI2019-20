@@ -7,68 +7,95 @@ import ApartmentCardGroup from "../components/ApartmentCardGroup"
 
 //importat link od gatsby-a da mozemo linkat pageove na gatsbyev nacin
 const apartman1 = {
-  title: "Flora Chiado Apartments",
-  shortDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi",
-  longDesc:
-    "Set 1.1 km from Dona Maria II National Theatre in Lisbon, Flora Chiado Apartments offers accommodation with air conditioning and free WiFi Each unit is fitted with a microwave, fridge, a kettle, as well as a oven and coffee machine. Some of the units feature a cable TV, a fully equipped kitchenette with a dishwasher, and a private bathroom with a shower and a hair dryer. Guests at the apartment can enjoy a continental breakfast. Bairro Alto is 1.4 km from Flora Chiado Apartments, while Liberty Avenue is 2.2 km from the property.",
+  title: "Tahiti Village Resort & Spa",
+  longDesc: `This Nevada 4-star resort features Mahana, a full-service spa, shuttle services to the Las Vegas Strip and a lazy river. 17° South Booze & Bites restaurant is on site.
+
+  Every suite at the Tahiti Village Resort and Spa includes a full kitchen or kitchenette. The suites provide a seating and dining area for the guest’s convenience. Select suites feature a spa tub, a washing machine and a balcony or patio.
+  
+  The Tahiti Village resort features an outdoor pool. Available activities include bracelet making, cookie decorating, sand castle contests and bingo.
+  
+  The McCarran International Airport is 6.4 km from the Tahiti Village Spa. The University of Nevada is 8 km away. Local restaurants, casinos and shopping are also located near the hotel.
+  
+  We speak your language!
+  
+  Tahiti Village Resort & Spa has been welcoming Booking.com guests since Feb 2, 2010`,
   price: "450 $",
   age: "1980",
-  city: "Lisbon",
-  country: "Portugal",
-  owner: "Christiano Ronaldo",
+  city: "Los Angeles",
+  country: "USA",
+  owner: "LL Cool J",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://r-cf.bstatic.com/images/hotel/max1024x768/100/100210804.jpg",
-  img2: "https://q-cf.bstatic.com/images/hotel/max1024x768/100/100205800.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1024x768/926/92610480.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/956/95624639.jpg",
+  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/956/95625100.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/956/95624921.jpg",
 }
 const apartman2 = {
-  title: "Park West Hotel",
-  shortDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia",
-  longDesc:
-    "Located 61 m from Central Park, Park West Hotel on Central Park offers WiFi and laundry services. Park West on Central Park is 0.7 mi from Columbia University and 1.4 mi from the American Museum of Natural History. Each of the room at the Park West includes a TV, radio, alarm clock and air conditioning. The private bathroom is equipped with a shower, bath tub and offers C.O. Bigelow toiletries for all guests.  Park West on Central Park has a 24-hour front desk and a business center. The Cathedral Parkway Subway Station is 161 m away and provides access to Lines B and C. The Broadway Theater District, Rockefeller Center, Radio City Music Hall and Columbus Circle are within a 3.7 mi radius. LaGuardia Airport is 8.4 mi from Park West on Central Park. Upper West Side is a great choice for travelers interested in parks, museums and culture.",
+  title: "Golden Gate Casino Hotel",
+  longDesc: `Built in 1906, this historic hotel in downtown Las Vegas features vintage décor. It is located right on the Fremont Street Experience, which features DJs and live bands and offers 2 restaurants.
+
+ Guest rooms at Golden Gate Casino Hotel are modern and offer flat-screen cable TVs and a radio. A private bathroom with toiletries is also included.
+ 
+ This casino hotel offers a large casino with traditional slot machines such as Monopoly. Table games include blackjack, craps and roulette. Guests can use the pool and fitness center located at The D Las Vegas right across the street.
+ 
+ Guests can enjoy Golden Gate Casino Hotel’s signature shrimp cocktail at the Deli.
+ 
+ T-Mobile Arena is a 20 minute drive from the property. The Mob Museum is a 5 minute walk from Golden Gate Casino Hotel. The Las Vegas Convention Center and Las Vegas Premium Outlets Mall are just minutes away.
+ 
+ We speak your language!
+ 
+ Golden Gate Casino Hotel has been welcoming Booking.com guests since Apr 19, 2009`,
   price: "500 $",
   age: "1990",
   city: "New York",
   country: "USA",
-  owner: "Brad Pitt",
+  owner: "Carl Johnson",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/157/157471036.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/834/83471737.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/127/127194962.jpg",
+  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/195/19516891.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/195/19516892.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/195/19516909.jpg",
 }
 const apartman3 = {
-  title: "Hotel Gat Point Charlie",
-  shortDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. ",
-  longDesc:
-    "This design hotel is centrally located in Berlin's central Mitte district, just 50 m from Checkpoint Charlie and the Friedrichstrasse shopping street. It offers free WiFi, modern rooms and great transport connections.Located in the Stasi secret police headquarters in the former East Germany, Gat Point Charlie is an industrial structure featuring minimalist-style rooms. Each features satellite TV and a desk, and the private bathrooms have toiletries and a hairdryer.A healthy and balanced breakfast is provided every morning in the hotel’s stylish breakfast room. Tapas and light meals are available in the evenings, and the bar is a great place to enjoy cocktails and make friends.Stadtmitte Underground Station is a 3-minute walk away. From here, guests can reach Potsdamer Platz in 2 minutes or Alexanderplatz Square in 6 minutes.Mitte is a great choice for travelers interested in museums, history and monuments.",
-  price: "350 $",
+  title: "Spacious Apartment in Kings Cross St Pancras",
+  longDesc: `In the Camden district of London, close to King's Cross Theatre, Spacious Apartment in Kings Cross St Pancras has free WiFi and a washing machine. Guests staying at this apartment can use a fully equipped kitchen.
+
+  With 2 bedrooms and 2 bathrooms, this apartment features a flat-screen TV.
+  
+  Emirates Stadium is 2.1 km from the apartment, while Camden Market is 2.1 km from the property. The nearest airport is London City Airport, 16.1 km from Spacious Apartment in Kings Cross St Pancras.
+  
+  Camden is a great choice for travelers interested in theater, shopping and entertainment.
+  
+  We speak your language!
+  
+  Spacious Apartment in Kings Cross St Pancras has been welcoming Booking.com guests since Jan 30, 2020`,
+  price: "007 $",
   age: "1986",
-  city: "Berlin",
-  country: "Germany",
-  owner: "Angela Merkel",
+  city: "London",
+  country: "UK",
+  owner: "James Bond",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634872.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/665/66575127.jpg",
-  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/196/19634782.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/243/243561121.jpg",
+  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/243/243561099.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/243/243560305.jpg",
 }
 const apartman4 = {
-  title: "Villa Dard",
-  shortDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned ",
-  longDesc:
-    "Villa Dard is only a 5 minute walk from Dubrovnik’s Old Town and the nearest beach. Featuring free Wi-Fi and free parking, it offers air-conditioned accommodations with a TV.The historic center is full of various cafés, restaurants and shops. Some of the most notable sights include the Stradun Promenade, Onofrio’s Fountain and Orlando’s Column.There is a cable car overlooking the surrounding islands half a kilometer away. Banje, Dubrovnik’ s most popular beach with great views of the Town Walls, is a 15 minute walk away.    A local bus stop is 92 m from the property. Dubrovnik Bus Station as well as the Ferry Port, with frequent services to numerous Dalmatian destinations, are 2.4 km away. Dubrovnik Airport is 19.3 km from the Dard.",
+  title: "Native Monument",
+  longDesc: `Company info
+ Camden Studios Serviced Apartments offers luxury apartments for short stays in London. If you plan to arrive outside reception working hours, the Front of House Team will send you an email with all the necessary instructions on how to access the property, the Wi-Fi details and any other relevant information.
+ 
+ Property info
+ All our Camden studio apartments has been designed to offer comfort and privacy in a stylish environment. Each room is fully equipped with everything you would need for your holiday or business stay. Housekeeping visits our apartment's every 3 nights of your stay. Please be aware that there is not a lift/elevator available.
+ 
+ Neighborhood info
+ Camden Town is renowned for it's vibrant nightlife and bustling day markets. It is an area of London thats always changing and constantly has something happening for you to do - whether eating, drinking or shopping! Our location places you a 15 minute walk from the heart of Camden Town with bus stops on our front door to take you directly into the city.`,
   price: "410 $",
   age: "1977",
-  city: "Dubrovnik",
-  country: "Croatia",
-  owner: "Ruder Boskovic",
+  city: "London",
+  country: "UK",
+  owner: "Frank Lampard",
   contactNumber: "XXX-XXX-XXX",
-  img1: "https://q-cf.bstatic.com/images/hotel/max1280x900/190/190408048.jpg",
-  img2: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190420172.jpg",
-  img3: "https://r-cf.bstatic.com/images/hotel/max1280x900/190/190418040.jpg",
+  img1: "https://r-cf.bstatic.com/images/hotel/max1280x900/164/164086898.jpg",
+  img2: "https://q-cf.bstatic.com/images/hotel/max1280x900/178/178165356.jpg",
+  img3: "https://q-cf.bstatic.com/images/hotel/max1280x900/178/178165322.jpg",
 }
 
 const Index4 = () => (
